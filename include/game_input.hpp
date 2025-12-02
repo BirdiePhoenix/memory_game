@@ -4,5 +4,8 @@
 /* 
     Responsible for how we receive input from the user.
 */
+void initButtons();
+void wait_for_input();
+button_handle buttonList[4];
 
 #endif
