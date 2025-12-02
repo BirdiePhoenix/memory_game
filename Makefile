@@ -26,7 +26,7 @@ else
 	OUTPUTDIR=bin/release
 endif
 
-
+SOURCES = main.cpp src/millis.cpp src/led_driver.cpp src/button_driver.cpp
 OBJS = $(addprefix $(OUTPUTDIR)/,$(SOURCES:.cpp=.o))
 
 ELF=$(OUTPUTDIR)/$(BIN).elf
